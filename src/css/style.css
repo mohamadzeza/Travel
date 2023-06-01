@@ -10,7 +10,10 @@ main{
     max-width: 400px;
     margin: 0 auto;
 }
-
+#nav{
+    height: 0;
+    color: black;
+}
 .img img{
     width: 380px;
     margin-top: 20px;
@@ -44,17 +47,162 @@ span{
     text-align: center;
     color: grey;
 }
-.btn button{
+.but{
     width: 300px;
     height: 50px;
     border-radius: 20px;
     border: none;
     color: var(--bg);
     background-color: var(--btn);
+    margin-top: 10px;
+}
+
+.but1{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid var(--btn);
+    transition: all 1s;
+}
+.but1:hover{
+    background-color: var(--btn);
+    color: var(--bg);
+}
+
+.but2{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    color: var(--bg);
+    background-color: var(--btn);
+    margin-top: 10px;
 }
 p{
     margin-top: 20px;
 }
 .icon img{
     width: 300px;
+}
+.text-footer{
+    text-align: center;
+    color: gray;
+    margin-top: 50px;
+}
+.acar{
+    margin-top: 50px;
+}
+.national{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+}
+#nav2{
+    display: none;
+}
+
+.icon2{
+    display: none;
+}
+.text-3{
+    display: none;
+}
+@media only screen and (min-width:900px) {
+    main{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #nav{
+        display: none;
+    }
+    #nav2{
+        display: flex;
+    }
+    .but1,.but2{
+        margin-right: 20px;
+    }
+    .flex-pc{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .img img{
+        width: 700px;
+    }
+    .about{
+        text-align: left;
+    }
+    .but{
+        width: 150px;
+        height: 45px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 340px;
+    }
+    .icon1{
+        display: none;
+    }
+    .icon2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .acar{
+        display: none;
+    }
+    ul{
+        list-style-type: none;
+        display: block;
+    }
+     .ul1{
+        margin-top: -21px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        height: 50vh;
+    }
+
+    .text-footer{
+        text-align: left;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .text{
+        margin-bottom: 140px;
+    }
+    .buy{
+        margin-bottom: 40px;
+    }
+    .text-2{
+        display: none;
+    }
+    .text-3{
+        display: flex;
+    }
+    .text-3 h1{
+        text-align: justify;
+    }.buy p{
+        margin-right: 68px;
+    }
+     .national{
+        margin-top: 30px;
+     }
 }
