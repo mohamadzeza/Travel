@@ -112,6 +112,9 @@ p{
 .text-3{
     display: none;
 }
+.none-frest-mobile{
+    display: none;
+}
 @media only screen and (min-width:900px) {
     main{
         max-width: 1200px;
@@ -204,5 +207,11 @@ p{
     }
      .national{
         margin-top: 30px;
+     }
+     .none-frest-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 500px;
      }
 }
