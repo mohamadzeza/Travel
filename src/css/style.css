@@ -1,53 +1,66 @@
-:root{
-    --bg:#fff;
+:root {
+    --bg: #fff;
     --text: #F85E9F;
     --btn: #5D50C6;
+    --text2: rgba(255, 87, 34, 1);
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-main{
+
+main {
     max-width: 400px;
     margin: 0 auto;
 }
-#nav{
+
+#nav {
     height: 0;
     color: black;
 }
-.img img{
+
+.img img {
     width: 380px;
     margin-top: 120px;
 }
-.buy{
+
+.buy {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.buy img{
+
+.buy img {
     width: 20px;
     height: 20px;
     margin-left: 10px;
 }
-.buy p{
+
+.buy p {
     color: var(--text);
 }
-span{
+
+span {
     color: var(--text);
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.title{
+
+.title {
     text-align: center;
 }
-.about{
+
+.about {
     text-align: center;
     color: grey;
 }
-.but{
+
+.but {
     width: 300px;
     height: 50px;
     border-radius: 20px;
@@ -57,7 +70,7 @@ span{
     margin-top: 10px;
 }
 
-.but1{
+.but1 {
     width: 100px;
     height: 50px;
     border-radius: 20px;
@@ -68,12 +81,13 @@ span{
     border: 1px solid var(--btn);
     transition: all 1s;
 }
-.but1:hover{
+
+.but1:hover {
     background-color: var(--btn);
     color: var(--bg);
 }
 
-.but2{
+.but2 {
     width: 100px;
     height: 50px;
     border-radius: 20px;
@@ -82,97 +96,387 @@ span{
     background-color: var(--btn);
     margin-top: 10px;
 }
-p{
+
+p {
     margin-top: 20px;
 }
-.icon img{
+
+.icon img {
     width: 300px;
 }
-.text-footer{
+
+.text-footer {
     text-align: center;
     color: gray;
     margin-top: 50px;
 }
-.acar{
+
+.acar {
     margin-top: 50px;
 }
-.national{
+
+.national {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 130px;
 }
-#nav2{
+
+#nav2 {
     display: none;
 }
 
-.icon2{
+footer {
+    margin-top: 120px;
+}
+
+.icon2 {
     display: none;
 }
-.text-3{
+
+.text-3 {
     display: none;
 }
-.none-frest-mobile{
+
+.none-frest-mobile {
     display: none;
 }
+
+.flex-gps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex-gps h1,
+p {
+    text-align: center;
+}
+
+.GPS h5 {
+    text-align: center;
+    color: var(--text);
+    margin-top: 20px;
+}
+
+.GPS h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.GPS2 h5 {
+    text-align: center;
+    color: var(--text);
+    margin-top: 20px;
+}
+
+.GPS2 h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-pag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-pag button {
+    border: 1px solid black;
+    background-color: #fff;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.btn-pag2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-pag2 button {
+    border: 1px solid black;
+    background-color: #fff;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.txt {
+    color: var(--text);
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--text);
+    background-color: var(--btn);
+}
+
+.flex-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.flex-m h1 {
+    color: var(--text2);
+}
+
+.flex-m h2 {
+    color: var(--text2);
+}
+
+.m {
+    margin-top: 50px;
+}
+
+.m h5 {
+    color: var(--text);
+    text-align: center;
+}
+
+.m h1 {
+    text-align: center;
+}
+
+.m p {
+    text-align: center;
+    color: gray;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.background h5 {
+    text-align: center;
+    color: var(--text);
+}
+
+.background h1 {
+    text-align: center;
+}
+
+.background p {
+    text-align: center;
+    color: gray;
+}
+
+.background2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.background2 h5 {
+    text-align: center;
+    color: var(--text);
+}
+
+.background2 h1 {
+    text-align: center;
+}
+
+.background2 p {
+    text-align: center;
+    color: gray;
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-size {
+    font-size: 19px;
+    color: gray;
+}
+
+.star h1 {
+    color: var(--text2);
+}
+
+.text-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.star p {
+    margin-top: 40px;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    margin-left: 10px;
+}
+
+.border-email {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.but3 {
+    width: 380px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    color: var(--bg);
+    background-color: var(--btn);
+    margin-top: 10px;
+}
+
+.gmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail h5 {
+    color: var(--text);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gmail h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.none-mo {
+    display: none;
+}
+.h5{
+    color: var(--text);
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+.none2{
+    display: none;
+}
+
+
 @media only screen and (min-width:900px) {
-    main{
+    main {
         max-width: 1200px;
         margin: 0 auto;
     }
-    #nav{
+
+    #nav {
         display: none;
     }
-    #nav2{
+
+    #nav2 {
         display: flex;
     }
-    .but1,.but2{
+
+    .but1,
+    .but2 {
         margin-right: 20px;
     }
-    .flex-pc{
+
+    .flex-pc {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         width: 100%;
     }
-    .img img{
+
+    .img img {
         width: 700px;
     }
-    .about{
+
+    .about {
         text-align: left;
     }
-    .but{
+
+    .but {
         width: 150px;
         height: 45px;
     }
-    .btn{
+
+    .btn {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 340px;
     }
-    .icon1{
+
+    .icon1 {
         display: none;
     }
-    .icon2{
+
+    .icon2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         margin-top: 50px;
     }
-    .acar{
+
+    .acar {
         display: none;
     }
-    ul{
+
+    ul {
         list-style-type: none;
         display: block;
     }
-     .ul1{
+
+    .ul1 {
         margin-top: -21px;
     }
 
-    footer{
+    footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -181,37 +485,187 @@ p{
         height: 50vh;
     }
 
-    .text-footer{
+    .text-footer {
         text-align: left;
     }
-    h1{
-        font-size: 50px;
+
+    h1 {
+        font-size: 40px;
         margin-bottom: 20px;
     }
-    .text{
+
+    .text {
         margin-bottom: 140px;
     }
-    .buy{
+
+    .buy {
         margin-bottom: 40px;
     }
-    .text-2{
+
+    .text-2 {
         display: none;
     }
-    .text-3{
+
+    .text-3 {
         display: flex;
     }
-    .text-3 h1{
+
+    .text-3 h1 {
+        font-size: 60px;
+    }
+
+    .text-3 h1 {
         text-align: justify;
-    }.buy p{
+    }
+
+    .buy p {
         margin-right: 68px;
     }
-     .national{
+
+    .national {
         margin-top: 30px;
-     }
-     .none-frest-mobile{
+    }
+
+    .none-frest-mobile {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 500px;
-     }
+    }
+
+    .GPS {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .GPS h1 {
+        text-align: left;
+    }
+
+    .GPS h5 {
+        text-align: left;
+    }
+
+    .flex-gps h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .flex-gps {
+        margin-left: 80px;
+    }
+
+    #tr {
+        display: none;
+    }
+
+    .col {
+        color: var(--text);
+    }
+
+    .none-pc {
+        display: none;
+    }
+
+    .none-mo {
+        display: flex;
+        flex-direction: column;
+    }
+    .none-mo h5{
+        color: var(--text);
+    }
+    .btn-pag{
+        margin-top: 100px;
+    }
+    .card-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .background1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .w{
+        
+        height: 500px;
+    }
+    .flex-m2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .flex-m3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+    }
+     .background{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    } 
+    .background-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .flex-gps img{
+        width: 60px;
+    }
+    .GPS2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .w-b{
+        width: 600px;
+        margin-top: 20px;
+    }
+    #tow{
+        margin-right: 80px;
+    }
+    .btn-pag2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+    }
+    .none1{
+        display: none;
+    }
+    .none2{
+        display: flex;
+        text-align: left;
+    }
+    .flex-gmail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+    }
+    .flex-gmail button{
+        margin-top: 45px;
+    }
+    .border-email input{
+        text-align: left;
+        width: 95%;
+    }
+    .star-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
 }
